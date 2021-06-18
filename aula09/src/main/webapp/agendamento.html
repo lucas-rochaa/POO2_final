@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styleagendamento.css">
+	<title>Cadastro</title>
+</head>
+
+<style> body {
+	background-image: url('imagens/tessaro.jpg');
+	background-size: 1620px;
+} </style>
+
+
+
+<body>
+	
+	<div  id="principal">
+	<fieldset style="background-image:url('imagens/telson.jpg')">
+	<legend><h1 style="font-family:verdana;background-color:#000000;color: black;">Agendamento Fit Body</h1></legend>
+		
+	<form action="ServletAgenda" method="GET">
+	
+	<fieldset>
+	<legend><b>Escolha a Modalidade de seu Interesse:</legend>
+	<select name="modalidades">
+		<option value="Qual a unidade?">Qual a modalidade?</option>
+		<option value="Musculação">Musculação</option>
+		<option value="Boxe">Boxe</option>
+		<option value="Zumba">Zumba</option>
+				</select>
+	<br>
+	</fieldset>	
+	<h2>Data:
+	<select name="data">
+		<option value="dia da semana">Escolha o dia da semana</option>
+		<option value="Segunda">Segunda</option>
+		<option value="Terça">Terça</option>
+		<option value="Quarta">Quarta</option>
+		<option value="Quinta">Quinta</option>
+		<option value="Sexta">Sexta</option>
+		<option value="Sábado">Sábado</option>
+		<option value="Domingo">Domingo</option>
+		</select>
+<h2>	<br>
+	<h2>Horário:
+	<select name="horario">
+		<option value="Horário">Horário</option>
+		<option value="09:00">09:00</option>
+		<option value="10:00">10:00</option>
+		<option value="11:00">11:00</option>
+		<option value="14:00">14:00</option>
+		<option value="15:00">15:00</option>
+		<option value="16:00">16:00</option>
+		<option value="17:00">17:00</option>
+		<option value="18:00">18:00</option>
+		<option value="19:00">19:00</option>
+		</select>
+		</h2>
+	<br>
+	
+	<h2>Personal:
+	<select name="personal">
+		<option value="Sem preferencia">Sem preferencia</option>
+		<option value="João">João</option>
+		<option value="Carolina">Carolina</option>
+				</select>
+			</h2>
+	<br>
+	<hr>
+		<input type="submit" value="Agendar">
+		
+	</form>
+	</fieldset>
+	</div>
+</body>
+<script src="script.js"></script>
+
+</html>

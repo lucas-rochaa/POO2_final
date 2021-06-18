@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os Rocha</title>
+    <link rel="stylesheet" href="estilocontato.css">
+    <link rel="icon" href="icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="corpo">
+    <form action="MensagemServlet" method="GET">
+        <header id="cabecalho"> 
+            <div class="logo">
+            </div>
+            <div class="nome">
+                <h1>Os Rochas</h1>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Planos</a></li>
+                    <li><a href="#">Matricule-se</a></li>
+                    <li><a href="#">Sobre a fit body</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <button class="menu-toggle">
+                <i class="fa fa-lg fa-bars"></i>
+            </button>
+        </header>
+
+        <section class="banner">
+            <img src="musculação.jpg" alt="musculação">
+        </section>
+
+        <section class="formulario">
+            <form method="POST" action="#">
+                <fieldset>
+                    <label>Telefone</label>
+                    <input type="tel" name="telefone" placeholder="(00) 0000-0000" required> <br>
+                    <label>Email:</label>
+                    <input type="email" name="email" placeholder="usuario@servidor.com" required><br>
+                    <label>Funcionario o qual deseja contatar:</label>
+                    <input type="radio" name="func" value="Lucas Rocha" checked> Lucas Rocha
+                    <input type="radio" name="func" value="Telso"> Telso <br>
+                    <label>Data de nascimento</label>
+                    <input type="date" name="idade">
+                    <label>Peso</label>
+                    <input type="text" name="peso" required>
+                    <label>Escolha uma modalidade de interesse:</label>
+                    <input name="Modalidade" list="Modalidade" required>
+                    <datalist id="Modalidade">
+                        <option value="Boxe"></option>
+                        <option value="musculação"></option>
+                        <option value="Zumba"></option>
+                    </datalist> <br>
+                    <label>Mensagem</label><br>
+                    <textarea name="Mensagem" cols="100" rows="5"></textarea> <br>
+                    <input type="submit" value="Enviar" class="btn-enviar">
+            </form>
+        </section>
+
+        <nav>
+            <div class="card">
+                <a href="#"><img src="zumba.png" alt="zumba"></a>
+
+                <div class="servico">
+                    <a href="#">zumba</a>
+                </div>
+                <p>A zumba é um tipo de atividade física em que são misturados passos de ginástica aeróbica e danças
+                    latinas, favorecendo a perda de peso e ajudando a tonificar os músculos, principalmente quando
+                    associada
+                    a uma alimentação saudável e
+                    balanceada.</p>
+            </div>
+            <div class="card">
+                <a href="#"><img src="musculação.png" alt="musculacao"></a>
+                <div class="servico">
+                    <a href="#">musculação</a>
+                </div>
+                <p>A musculação é um treino de força que consiste no levantamento de pesos, seja com halteres ou
+                    aparelhos
+                    específicos. Seu objetivo é a hipertrofia dos músculos. Porém, a boa execução dos exercícios e
+                    alguns
+                    truques fazem a diferença para obter melhores resultados.</p>
+            </div>
+            <div class="card">
+                <a href="#"><img src="boxe.png" alt="boxe"></a>
+                <div class="servico">
+                    <a href="#">boxe</a>
+                </div>
+                <p>O boxe é um esporte que traz um maior número de benefícios físicos, psicológicos. Ele ajuda na
+                    socialização do aluno, tem vantagens endógenas com a melhora da força muscular, resistência
+                    cardiorespiratória e flexibilidade.</p>
+            </div>
+        </nav>
+
+
+        <footer class="rodape">
+            <div class="newsletter">
+                <p>Receba dicas de treinos e suplementos. Cadastre-se</p>
+                <label for="Nome">Nome</label>
+                <input type="text" name="nome">
+                <label for="Email">Email</label>
+                <input type="email" name="email">
+                <button>Cadastrar</button>
+            </div>
+            <div class="info">
+                <p>Fit body LTDA - CNPJ: 000-000111/111 - R. James Holland, 120 - Barra Funda, São Paulo - SP,
+                    01234-567</p>
+                <p>copyright © Mac Solução Digital 2020. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </form>
+    </div>
+</body>
+
+</html>

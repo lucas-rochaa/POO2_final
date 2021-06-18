@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+#corpo{
+    background-color: black;
+}
+
+#cabecalho{
+    height: 90px;
+    color:#FFF;
+    box-sizing: content-box;
+    vertical-align: top;
+}
+
+.logo img{
+    width: 80px;
+    margin-top: 7px;
+    float: left;
+}
+
+.nome{
+    margin: 0;
+    font-size: 35px;
+    letter-spacing: 9px;
+    color:#da6709;
+    font-family: Tahoma, sans-serif;
+    text-transform: uppercase; 
+    display: inline-block;
+}
+
+.menu{
+    margin-left: 70px;
+    display: inline-block;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    font-size: 20px;
+    padding: 0 15px;
+    text-decoration: none;
+    color: #aaa;
+}
+
+.menu li a:hover{
+    color: #da6709;
+}
+
+.menu-toggle{
+    margin: 35px 20px 0 0 ;
+    width:40px;
+    height: 35px;
+    border-radius: 7px;
+    background-color: #aaa;
+    color: #da6709;
+    float: right;
+    display: none;
+}
+.banner img{
+    width: 100%;
+    overflow: hidden; 
+}
+
+.formulario{
+    width: 70%;
+    padding: 10px;   
+    line-height: 23pt;
+    color: #da6709;
+}
+
+fieldset{
+    padding: 20px;
+}
+
+.formulario fieldset input{
+    margin: 5px;
+}
+
+
+.btn-enviar{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+    background-color: #da6709;
+    color: #FFF;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+nav{
+    width: 100%; 
+    height: 450px;
+    background-color: black;
+}
+
+.card{
+    width: 33%;
+    padding: 1%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.servico a{
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #da6709;
+    text-decoration: none;
+}
+
+.card p{
+    font-size: 19px;
+    margin-top: 15px;
+    color: #aaa;
+}
+
+.rodape{
+    font-size: 18px;
+    padding: 15px;  
+    background-color: #da6709;
+    display: block;
+}
+
+.newsletter{
+    color: #202020;
+}
+
+.newsletter input{
+    width: 150px;
+    height: 30px;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+.newsletter button{
+    width: 90px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 7px;
+    background-color: #fff;
+    color: #202020;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.newsletter button:hover{
+    background-color: #aaa;
+    color:#fa7000;
+}
+
+.newsletter .info{
+    margin: 30px 0 0 0;
+    color:#202020;
+}
+
+@media (max-width: 321px) and (orientation: portrait) {
+    .logo img{
+        width: 2.5em;
+        
+    }
+    .nome{
+        margin: 0;
+        font-size: 1.2em;
+        letter-spacing: 0.5em;
+    } 
+    .menu{
+        display: none;
+    }
+    .menu-toggle{
+        margin: 3.8% 2% 0 0;
+        display: block;
+    }
+    .formulario fieldset{
+        padding: 5px;
+
+    }
+    .formulario textarea{
+        width: 280px;  
+    }
+    nav{
+        height: 85em;
+    }
+    .card{
+        width: 100%;
+    }
+    .card p{
+        font-size: 1.18em;
+    }
+    .servico a{
+        font-size: 1.5em;
+    }
+    .rodape{
+        font-size: 1em;
+    }
+    .rodape input{
+        width: 15em;
+    }
+    .rodape button{
+        width: 5.3em;
+        margin-left: 14%;
+    }
+}
+
+@media (max-width: 769px) and (min-width: 321px) {
+
+    #cabecalho{
+        height: 9em;
+    }
+    .nome{
+       font-size: 2.18em; 
+    }
+    .menu{
+        margin:0 0 0.1em 0.6em
+    }  
+    nav{
+        height: 55em;
+    }
+    .card{
+        width: 48%;
+    }
+    .card p{
+        font-size: 1.18em;
+    }
+    .servico a{
+        font-size: 1.5em;
+    }
+    .rodape{
+        font-size: 1em;
+    }
+    .rodape input{
+        width: 15em;
+    }
+    .rodape button{
+        width: 5.3em;
+    }
+}

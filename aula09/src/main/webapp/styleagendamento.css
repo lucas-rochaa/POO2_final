@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&family=Josefin+Slab:ital,wght@0,300;0,400;1,200;1,300;1,400&family=Mulish:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+
+.fieldset {
+    width: 100px;
+    border-radius: 25px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    background-image: url('imagens/telson.jpg');
+
+    font-size: italic;
+    border-radius: 40px;
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+    border-radius: 2rem;
+   
+}
+
+button submit {
+    align-items: center;
+    font-family: italic;
+    color: #fff;
+    padding: 15px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: #cb2d3e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 black;
+}
+
+style { 
+background-color: black;
+
+
+}
+
+h1 { 
+text-decoration-line: underline;
+border-radius: 25px;
+background: url('imagens/telson.jpg');
+font-family:"Times new Roman", 'Times New Roman', Times, serif ;
+padding: 10px;
+width: 410px;
+height: 40px;
+
+}
+
+legend {
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+ font-family: sans-serif;
+ text-shadow: 0 8px 16px 0 rgb(63, 61, 61);
+    
+}
+
+fieldset{
+border-radius: 25px;
+background-size: 800px;
+box-shadow: 0 8px 16px 0 black;
+}
+
+input{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 8px 20px;
+     box-shadow: 0 8px 16px 0 rgb(71, 71, 71);
+     cursor: pointer;
+}
+
+select{
+padding: 5px 10px;
+border-radius: 4px;    
+cursor: pointer;
+}
